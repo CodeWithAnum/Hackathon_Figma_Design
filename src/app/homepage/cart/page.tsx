@@ -12,7 +12,7 @@ const Cart = () => {
        <div className='mt-[64px]'>
           <h1 className='text-5xl font-bold'>YOUR CART</h1>
        </div>
-       <div className='flex lg:space-x-4'>
+       <div className='lg:flex space-y-4 lg:space-x-4'>
       <Image src={"/images/Frame 27 (1).svg"} alt="hero-image" width={715} height={508}/>
       <Image src={"/images/Frame 28.svg"} alt="hero-image" width={505} height={458} />
        </div>

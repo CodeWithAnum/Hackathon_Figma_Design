@@ -23,7 +23,7 @@ const Footer = () => {
       <p className="mt-2 text-sm text-gray-700">
       We have clothes that suits your style and which you are proud to wear. From women to men.
       </p>
-      <div className='flex gap-[12px] mt-[28px]'>
+      <div className='flex gap-[12px] ml-[46px] mt-[28px]'>
       <Image src={"/images/1.svg"} alt="hero-image" width={28} height={28}/>
       <Image src={"/images/2.svg"} alt="hero-image" width={28} height={28}/>
       <Image src={"/images/3.svg"} alt="hero-image" width={28} height={28}/>
@@ -50,7 +50,7 @@ const Footer = () => {
           </li>
         </nav>
       </div>
-      <div className="lg:w-1/4 md:w-1/2 w-full px-4 space-y-4">
+      <div className="lg:w-1/4 md:w-1/2 w-full px-4 space-y-4 mt-14 lg:mt-0">
         <h2 className="title-font font-medium text-black tracking-[3px] text-sm mb-3">
           HELP
         </h2>
@@ -69,7 +69,7 @@ const Footer = () => {
           </li>
         </nav>
       </div>
-      <div className="lg:w-1/4 md:w-1/2 w-full px-4 space-y-4">
+      <div className="lg:w-1/4 md:w-1/2 w-full px-4 space-y-4 mt-14 lg:mt-0">
         <h2 className="title-font font-medium text-black tracking-[3px] text-sm mb-3">
           FAQ
         </h2>
@@ -88,7 +88,7 @@ const Footer = () => {
           </li>
         </nav>
       </div>
-      <div className="lg:w-1/4 md:w-1/2 w-full px-4 space-y-4">
+      <div className="lg:w-1/4 md:w-1/2 w-full px-4 space-y-4 mt-14 lg:mt-0">
         <h2 className="title-font font-medium text-black tracking-[3px] text-sm mb-3">
           RESOURCES
         </h2>
